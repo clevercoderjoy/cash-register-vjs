@@ -1,0 +1,10 @@
+{
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "editor.codeLensFontFamily": "'Montserrat', sans-serif;",
+    "editor.fontFamily": "'Montserrat', sans-serif;",
+    "editor.inlayHints.fontFamily": "'Montserrat', sans-serif;",
+    "editor.fontSize": 16,
+    "markdown.preview.fontFamily": "Fira Code iScript",
+    "scm.inputFontFamily": "Fira Code iScript",
+    "terminal.integrated.fontFamily": "Fira Code iScript"
+}

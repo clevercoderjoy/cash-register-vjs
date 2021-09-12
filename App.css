@@ -1,0 +1,321 @@
+/* font import */
+
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* global css variables */
+
+:root{
+    --font-two: 'Rampart One', cursive;
+    --font-one: 'Montserrat', sans-serif;
+    --money-green: #118C4F;
+}
+
+body{
+    background:var(--money-green);
+}
+
+/* tag h1 */
+
+h1{
+    font-family: var(--font-two);
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: auto;
+}
+
+/* .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+} */
+
+.container {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    max-width: 30vw;
+    min-height: 90vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: var(--font-one);
+}
+
+.description{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: var(--font-one);
+    font-size: 20px;
+}
+
+label{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: var(--font-one);
+    margin: 0.5rem;
+    display: flex;
+    font-size: 20px;
+}
+
+input{
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-one);
+    width: 15vw;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    background: var(--money-green);
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+input:hover{
+    transition: all 0.3s ease-in-out;
+    background: black;
+    color: var(--money-green);
+}
+
+button{
+    text-align: center;
+    justify-content: center;
+    margin: 1.5rem auto;
+    margin-bottom:0.5rem;
+    width: 15vw;
+    border: 2px solid black;
+    background: var(--money-green);
+    border-radius: 1rem;
+    font-size: 18px;
+    padding: 0.2rem;
+    font-weight: bold;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    transition: all 0.3s ease-in-out;
+    background: black;
+    color: var(--money-green);
+}
+
+#error-message{
+    font-family: var(--font-one);
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 1rem auto;
+    font-size: 20px;
+    background: black;
+    color: var(--money-green);
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+
+caption{
+    text-align: center;
+    justify-content: center;
+    font-family: var(--font-one);
+    font-weight: bold;
+    margin: 0.5rem auto;
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+table,
+th,
+td {
+    background: var(--money-green);
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    border-collapse: collapse;
+    transition: all 0.3s ease-in-out;
+    font-family: var(--font-one);
+    table-layout: fixed;
+}
+
+th{
+    background: black;
+    color: var(--money-green);
+}
+
+td:hover{
+    transition: all 0.3s ease-in-out;
+    background: black;
+    color: var(--money-green);
+}
+
+/* template applied */
+
+/* class about*/
+
+.about{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 2rem;
+    font-family: var(--font-two);
+}
+
+/* class app */
+
+.app{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-weight: bold;
+    font-family: var(--font-one);
+    margin: 0.5rem;
+}
+
+/* link color */
+
+.social-link{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* source */
+
+.source{
+    text-align: center;
+    margin: 0.5rem auto;
+    background: transparent;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    display: inline-block;
+    font-family: var(--font-one);
+    transition: all 0.3s ease-in-out;
+}
+
+/* class btn */
+
+.btn-source{
+    text-align: center;
+    margin: 1rem;
+}
+
+/* button (source) => hover */
+.source:hover{
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+/* class social */
+
+.social{
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+	padding: 0.5rem 0.5rem;
+    justify-content: center;
+}
+
+/* class social-list */
+
+.social-list{
+    display: inline-block;
+    margin: 0.2rem 1rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+/* social link color on hover */
+
+i.fa.fa-linkedin.fa-1x:hover {
+    color: #0077b5;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-github.fa-1x:hover {
+    color: #171515 ;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-stack-overflow.fa-1x:hover {
+    color: #ef8236;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-twitter.fa-1x:hover {
+    color: #00acee ;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-whatsapp.fa-1x:hover {
+    color: 	#075E54;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-instagram.fa-1x:hover {
+    color: 	#C13584;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+/* copyright */
+
+.copyright{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    margin: 1rem;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.5rem;
+    transition: all 0.3s ease-in-out;
+    background:var(--money-green);
+    color: black;
+    font-family: var(--font-one);
+}
+
+.copyright:hover{
+    background:black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.cr{
+    text-align: center;
+}
